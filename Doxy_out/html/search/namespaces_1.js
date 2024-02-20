@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dirtylittlehelpers_285',['DirtyLittleHelpers',['../namespaceDirtyLittleHelpers.html',1,'']]]
+  ['dirtylittlehelpers_887',['DirtyLittleHelpers',['../namespace_dirty_little_helpers.html',1,'']]]
 ];

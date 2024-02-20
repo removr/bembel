@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['gausslegendrerule_233',['GaussLegendreRule',['../structBembel_1_1GaussLegendreRule.html',1,'Bembel']]],
-  ['geometry_234',['Geometry',['../classBembel_1_1Geometry.html',1,'Bembel']]],
-  ['glue_235',['Glue',['../classBembel_1_1Glue.html',1,'Bembel']]]
+  ['elementtree_741',['ElementTree',['../class_bembel_1_1_element_tree.html',1,'Bembel']]],
+  ['elementtreenode_742',['ElementTreeNode',['../class_bembel_1_1_element_tree_node.html',1,'Bembel']]]
 ];
