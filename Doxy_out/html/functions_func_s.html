@@ -93,7 +93,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 
 <h3><a id="index_s"></a>- s -</h3><ul>
 <li>scaleAndAddTo()
-: <a class="el" href="struct_eigen_1_1internal_1_1generic__product__impl_3_01_h2_matrix_3_01_scalar_t_01_4_00_01_rhs_0862766941c73766b97391c41efe25015.html#a68b03d14f325bbeff4a44765148d549b">Eigen::internal::generic_product_impl&lt; H2Matrix&lt; ScalarT &gt;, Rhs, SparseShape, DenseShape, GemvProduct &gt;</a>
+: <a class="el" href="struct_eigen_1_1internal_1_1generic__product__impl_3_01_cwise_binary_op_3_01_binary_op_00_01_bindee96f1c7e248fc6a07c919bd232bde5.html#a4552152075dd483aff53077cc4fad01a">Eigen::internal::generic_product_impl&lt; CwiseBinaryOp&lt; BinaryOp, BinaryLhs, BinaryRhs &gt;, Rhs, H2, DenseShape, ProductType &gt;</a>
+, <a class="el" href="struct_eigen_1_1internal_1_1generic__product__impl_3_01_cwise_binary_op_3_01scalar__product__op_8073476bfed0796179dbc9c15930626c.html#a03a4cea15f5d6e7110fc8db139b7c8b9">Eigen::internal::generic_product_impl&lt; CwiseBinaryOp&lt; scalar_product_op&lt; ProdLhsScalar, ProdRhsScalar &gt;, BinaryLhs, BinaryRhs &gt;, Rhs, H2, DenseShape, ProductType &gt;</a>
+, <a class="el" href="struct_eigen_1_1internal_1_1generic__product__impl_3_01_lhs_00_01_rhs_00_01_h2_00_01_dense_shape_00_01_product_type_01_4.html#a5ba67db0ebee20b79c4e8ef1377166b9">Eigen::internal::generic_product_impl&lt; Lhs, Rhs, H2, DenseShape, ProductType &gt;</a>
 </li>
 <li>set_cauchy_data()
 : <a class="el" href="class_bembel_1_1_discrete_potential.html#ad6ea39f7ec3c006a6c28020c82b95536">Bembel::DiscretePotential&lt; Derived, LinOp &gt;</a>
@@ -108,6 +110,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>set_function()
 : <a class="el" href="class_bembel_1_1_dirichlet_trace.html#abcc9f46073684eeb2619fc986bed42c4">Bembel::DirichletTrace&lt; Scalar &gt;</a>
 , <a class="el" href="class_bembel_1_1_function_evaluator.html#a335d3de2569dd975a42a2cc2c306e07c">Bembel::FunctionEvaluator&lt; Derived &gt;</a>
+, <a class="el" href="class_bembel_1_1_neumann_trace.html#a41d090716e13d69af3c51dfa56ae4864">Bembel::NeumannTrace&lt; Scalar &gt;</a>
 , <a class="el" href="class_bembel_1_1_rotated_tangential_trace.html#a9713d84a3617e71edbf9f047a31d6191">Bembel::RotatedTangentialTrace&lt; Scalar &gt;</a>
 , <a class="el" href="class_bembel_1_1_tangential_trace.html#a3e9a8cba63c4f02be9a9981b32ec3228">Bembel::TangentialTrace&lt; Scalar &gt;</a>
 </li>
@@ -124,7 +127,11 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="class_bembel_1_1_tree_leaf.html#a21c524a935e0122c0ce5957ede55569c">Bembel::TreeLeaf&lt; Derived &gt;</a>
 </li>
 <li>set_wavenumber()
-: <a class="el" href="class_bembel_1_1_helmholtz_single_layer_operator.html#a8a417dbf1a8f9b9f53fcb75d31d3adbf">Bembel::HelmholtzSingleLayerOperator</a>
+: <a class="el" href="class_bembel_1_1_helmholtz_adjoint_double_layer_operator.html#a08aaf9bc07ea1ed3304dada4ed19a310">Bembel::HelmholtzAdjointDoubleLayerOperator</a>
+, <a class="el" href="class_bembel_1_1_helmholtz_double_layer_operator.html#a6695d76e4d21309115f9b772d831a3d5">Bembel::HelmholtzDoubleLayerOperator</a>
+, <a class="el" href="class_bembel_1_1_helmholtz_double_layer_potential.html#a09314f953a8cb280c4b0b828b5e11cf2">Bembel::HelmholtzDoubleLayerPotential&lt; LinOp &gt;</a>
+, <a class="el" href="class_bembel_1_1_helmholtz_hypersingular_operator.html#a32a997243edf451421284274b3146f1b">Bembel::HelmholtzHypersingularOperator</a>
+, <a class="el" href="class_bembel_1_1_helmholtz_single_layer_operator.html#a8a417dbf1a8f9b9f53fcb75d31d3adbf">Bembel::HelmholtzSingleLayerOperator</a>
 , <a class="el" href="class_bembel_1_1_helmholtz_single_layer_potential.html#a53e00cd426cb7ab23764d35c010d9a7b">Bembel::HelmholtzSingleLayerPotential&lt; LinOp &gt;</a>
 , <a class="el" href="class_bembel_1_1_maxwell_single_layer_operator.html#a2c834fdc27a8176f3996a8eab1eeeae9">Bembel::MaxwellSingleLayerOperator</a>
 , <a class="el" href="class_bembel_1_1_maxwell_single_layer_potential.html#ad5544a915b8c9c921d6f044cc193337f">Bembel::MaxwellSingleLayerPotential&lt; LinOp &gt;</a>
@@ -150,7 +157,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 20 2024 11:25:05 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu Feb 29 2024 22:09:05 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
